@@ -16,6 +16,7 @@
             android:rowCount="1"
             android:orientation="horizontal">
         <Button
+                android:id="@+id/btn_anterior"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/string_anterior"
@@ -23,6 +24,7 @@
                 android:layout_columnWeight="2"/>
 
         <Button
+                android:id="@+id/btn_siguiente"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/string_siguiente"
