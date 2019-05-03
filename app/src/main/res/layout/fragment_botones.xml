@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/fl_botones"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".botones"
+        android:orientation="horizontal">
+
+    <!-- TODO: Update blank fragment layout -->
+    <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="4"
+            android:rowCount="1"
+            android:orientation="horizontal">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_anterior"
+                android:layout_column="1"
+                android:layout_columnWeight="2"/>
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_siguiente"
+                android:layout_column="2"
+                android:layout_columnWeight="2"/>
+    </GridLayout>
+
+</FrameLayout>
